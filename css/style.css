@@ -77,6 +77,7 @@ div a{
     padding: 15px;
     text-decoration: none;
     color: gray;
+    padding-bottom: 10px;
 }
 
 div a:hover{
@@ -107,4 +108,42 @@ div[title="Featured Post"] a{
 
 div[title="Featured Post"] a:hover{
     color: orangered;
+}
+
+#services{
+    background-color: whitesmoke;
+    height: 50vh;
+    color: black;
+}
+
+#services h2{
+    padding-top: 15vh;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 5vh;
+}
+
+ul{
+    margin-top: 20px;
+    text-align: center;
+}
+
+li{
+    background-color: white;
+    display: inline-block;
+    height: 80px;
+    width: 200px;
+    margin-right: 30px;
+    text-align: center;
+    padding-top: 30px;
+    font-weight: bold;
+}
+
+li:first-child{
+    background-color: orangered;
+    color: black;
+}
+
+li:hover{
+    box-shadow: 0 5px 10px rgb(0 0 0 / 0.2);
 }
