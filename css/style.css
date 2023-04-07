@@ -32,3 +32,79 @@
     padding-top: 30px;
     text-shadow: 2px 2px 1px black;
 }
+
+#blog{
+    height: 100vh;
+    margin-left: 150px;
+}
+
+#blog h2{
+    padding-top: 15vh;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 10vh;
+    margin-right: 150px;
+}
+
+img{
+    width: 300px;
+    height: 170px;
+}
+
+div{
+    width: 300px;
+    height: 350px;
+    display: inline-block;
+    box-shadow: 0px 1px 1px 1px lightgray;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+div h3{
+    padding: 15px;
+    font-weight: bold;
+}
+
+div p{
+    padding: 15px;
+    font-size: 14px;
+    text-align: justify;
+    padding-top: 0px;
+}
+
+div a{
+    font-size: 14px;
+    padding: 15px;
+    text-decoration: none;
+    color: gray;
+}
+
+div a:hover{
+    color: orangered;
+}
+
+div[title="Featured Post"] { 
+    width: 300px;
+    height: 350px;
+    display: inline-block;
+    border-radius: 10px; 
+    margin-right: 10px;
+    background-color:rgba(27,27,27,255);
+    border: 1px solid rgba(27,27,27,255);
+}
+
+div[title="Featured Post"] h3{
+    color: white;
+}
+
+div[title="Featured Post"] p{
+    color: white;
+}
+
+div[title="Featured Post"] a{
+    color: white;
+}
+
+div[title="Featured Post"] a:hover{
+    color: orangered;
+}
